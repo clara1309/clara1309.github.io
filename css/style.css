@@ -64,3 +64,33 @@ div {
     border-top: 20px solid #d5d5d5;
     text-align: center;
 }
+
+a {
+    
+    background-color: rgb(0, 13, 128);
+    font-size:  14px;
+    font-weight: bold;
+    text-decoration:  none;
+    color:  #fff;
+    padding:  8px 15px;
+    border-radius:  20px;
+}
+
+#inverno{
+    font-style:italic;
+}
+
+
+#outono{
+    font-style:italic;
+}
+
+
+#frio{
+    font-style:italic;
+}
+
+
+#primavera{
+    font-style:italic;
+}
