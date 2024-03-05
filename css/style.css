@@ -55,3 +55,12 @@ iframe {
     display: block;
     margin: auto;
 }
+
+div {
+    background-color: aliceblue;
+    padding: 50PX;
+    width: 930PX;
+    margin: 0 auto;
+    border-top: 20px solid #d5d5d5;
+    text-align: center;
+}
