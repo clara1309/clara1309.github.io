@@ -2,9 +2,6 @@ h1 {
     color: rgb(8, 217, 245);
 }
 
-h2{
-    color: dodgerblue;
-}
 body{
     background-color: aliceblue;
     text-align: center;
@@ -20,6 +17,9 @@ h1 {
 
 h2 {
     text-align: center;
+    border-radius: 25px 40px;
+    color: dodgerblue;
+    
 }
 
 a {
@@ -94,3 +94,5 @@ a {
 #primavera{
     font-style:italic;
 }
+
+
