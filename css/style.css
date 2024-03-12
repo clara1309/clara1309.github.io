@@ -45,9 +45,9 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
     font-weight: bold;
-    border: solid 10px  rgb(16, 72, 136);
-    border-radius: 55px;
-    
+    width: max-content;
+    padding: 10px;
+    margin: auto;
 }
 
 
