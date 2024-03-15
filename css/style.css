@@ -61,7 +61,7 @@ div {
     padding: 50PX;
     width: 930PX;
     margin: 0 auto;
-    border-top: 20px solid #d5d5d5;
+    border-top: 20px solid aliceblue;
     text-align: center;
 }
 
@@ -95,4 +95,10 @@ a {
     font-style:italic;
 }
 
+p{
+    font-size: 20px;
+}
 
+li{
+    list-style: none; 
+}
