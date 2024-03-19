@@ -10,6 +10,7 @@ img{
     background-color: aliceblue;
     text-align: center;
     border-radius: 55px;
+    
 }
 h1 {
     text-align: center;
@@ -18,7 +19,7 @@ h1 {
 h2 {
     text-align: center;
     border-radius: 25px 40px;
-    color: dodgerblue;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -78,22 +79,9 @@ a {
 
 #inverno{
     font-style:italic;
+    font-size: 19px;
 }
 
-
-#outono{
-    font-style:italic;
-}
-
-
-#frio{
-    font-style:italic;
-}
-
-
-#primavera{
-    font-style:italic;
-}
 
 p{
     font-size: 20px;
@@ -101,4 +89,11 @@ p{
 
 li{
     list-style: none; 
+}
+
+body{
+    background-image: url('/projeto/img/fubdo.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
 }
