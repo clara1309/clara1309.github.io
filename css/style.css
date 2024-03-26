@@ -98,7 +98,17 @@ body{
     background-size:cover ;
 }
 
-a :hover{
-background-color: #000000; 
-
+ul {
+    list-style:none;
+}
+a :link{
+    width: 100px;
+    height:36px;
+    line-height:36px;
+    text-align: center;
+    
+}
+a:hover, .active {
+    background-color:#63cdf7!important;
+    color: black;
 }
