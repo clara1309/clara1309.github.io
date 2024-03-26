@@ -68,11 +68,11 @@ div {
 
 a {
     
-    background-color: rgb(0, 13, 128);
+    background-color: rgb(150, 151, 156);
     font-size:  14px;
     font-weight: bold;
     text-decoration:  none;
-    color:  #fff;
+    color:  #020202;
     padding:  8px 15px;
     border-radius:  20px;
 }
@@ -109,6 +109,29 @@ a :link{
     
 }
 a:hover, .active {
-    background-color:#63cdf7!important;
-    color: black;
+    background-color:#111111!important;
+    color: rgb(245, 241, 241);
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
 }
