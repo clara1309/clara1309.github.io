@@ -2,10 +2,7 @@ h1 {
     color: rgb(8, 217, 245);
 }
 
-body{
-    background-color: aliceblue;
-    text-align: center;
-}
+
 img{
     background-color: aliceblue;
     text-align: center;
@@ -96,6 +93,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover ;
+    background-color: aliceblue;
+    text-align: center;
 }
 
 ul {
