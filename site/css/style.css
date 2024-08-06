@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+}
 img{
     background-color: aliceblue;
     text-align: center;
+    
+    border-radius: 20px;
     
     
 }
@@ -23,9 +28,26 @@ body{
 }
 
 div {
-    background-color: rgba(54, 55, 56, 0.411);
+    background-color: rgba(63, 68, 73, 0.466);
     padding: 50PX;
     width: 930PX;
     margin: 0 auto;
     text-align: center;
+}
+
+p {
+    font-size: 200%;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+a {
+    
+    background-color: rgb(150, 151, 156);
+    font-size:  14px;
+    font-weight: bold;
+    text-decoration:  none;
+    color:  #020202;
+    padding:  8px 15px;
+    border-radius:  20px;
 }
