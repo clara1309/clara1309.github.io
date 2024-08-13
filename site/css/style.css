@@ -18,6 +18,9 @@ img{
     height: 100%;
 }
 
+h1 {
+    color: rgb(17, 16, 16);
+}
 body{
     background-image: url('/site/img/floresta.png');
     background-repeat: no-repeat;
@@ -28,7 +31,7 @@ body{
 }
 
 div {
-    background-color: rgba(63, 68, 73, 0.466);
+    background-color: rgba(214, 218, 223, 0.466);
     padding: 50PX;
     width: 930PX;
     margin: 0 auto;
@@ -36,18 +39,37 @@ div {
 }
 
 p {
+    color: rgb(15, 15, 15);
     font-size: 200%;
     letter-spacing: 1px;
     margin: 0;
 }
 
 a {
-    
+
     background-color: rgb(150, 151, 156);
     font-size:  14px;
     font-weight: bold;
     text-decoration:  none;
     color:  #020202;
     padding:  8px 15px;
-    border-radius:  20px;
+   
 }
+
+#a1 {
+    position: absolute;
+    left: 90%;
+    top: 25%
+}
+
+#a2 {
+    position: absolute;
+    left: 90%;
+    top: 20%
+}
+#a3 {
+    position: absolute;
+    left: 90%;
+    top: 15%;
+}
+
