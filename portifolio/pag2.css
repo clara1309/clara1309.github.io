@@ -99,6 +99,7 @@ nav a.active{
     }
 }
 
+
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
@@ -287,3 +288,4 @@ p{
 h2{
     color: #030303;
 }
+
