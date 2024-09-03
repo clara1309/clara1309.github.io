@@ -174,7 +174,7 @@ a :link{
 }
 
 footer {
-	background-color: #333333a6;
+	background-color: #33333310;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
@@ -197,7 +197,10 @@ nav a{
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
-
+#color {
+    color: #b74b4b;
+    font-size: 120%;
+}
 nav a:hover,
 nav a.active{
     color: #b74b4b;
