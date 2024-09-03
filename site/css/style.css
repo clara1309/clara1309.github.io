@@ -173,7 +173,13 @@ a :link{
     justify-content: center;
 }
 
-
+footer {
+	background-color: #333333a6;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
 #wendingo-centralizador {
     display: flex;
     justify-content: center;

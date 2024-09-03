@@ -16,7 +16,7 @@ h1 {
 h1, h2 {
     margin-top: 50px;
     text-align: center;
-    color: #309433;
+    color: #ac1f99;
 }
 h2 {
     font-size: 30px;
@@ -32,7 +32,7 @@ table {
 }
 
 thead {
-    background-color: #4CAF50;
+    background-color: #af4c9e;
     color: white;
 }
 
@@ -59,7 +59,7 @@ tbody td {
 }
 
 tbody a {
-    color: #4CAF50;
+    color: #af4c9e;
     text-decoration: none;
     font-weight: bold;
 }
@@ -71,21 +71,21 @@ tbody a:hover {
 div {
     font-family: Arial, sans-serif;
     margin: 20px;
-    border: 1px solid #4CAF50;
+    border: 1px solid #a017a0;
     max-width: 450px;
     margin: 20px auto;
 }
 
 .diretorios {
     width: 300px;
-    border: 1px solid #4CAF50;
+    border: 1px solid #a74caf;
 }
 
 ul {
     list-style-type: none;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 2px solid #4CAF50;
+    border-left: 2px solid #af4c86;
 }
 
 li {
@@ -107,17 +107,17 @@ li::before {
 }
 
 .pasta::before {
-    background-color: #4CAF50;
+    background-color: #af4ca7;
 }
 
 .arquivo::before {
     background-color: #f2f2f2;
-    border: 2px solid #4CAF50;
+    border: 2px solid #86296f;
 }
 
 .pasta {
     font-weight: bold;
-    color: #4CAF50;
+    color: #af4caa;
 }
 
 .arquivo {
