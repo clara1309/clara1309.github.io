@@ -1,0 +1,130 @@
+:root{
+    --cor-principal: #6d8091;
+    --cor-secundaria: #69ade9;
+    --cor-secundaria-variante: #3b73a3;
+
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    
+}
+
+body::-webkit-scrollbar { 
+	display: none;
+}
+
+
+
+main{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+}
+
+.map-mouldure{
+    width: 40vh;
+    height: 40vh;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px var(--cor-secundaria-variante) solid;
+    border-style: double;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    
+
+    
+
+}
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+#color {
+    color: #b74b4b;
+    font-size: 120%;
+}
+nav a:hover,
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+
+@media(max-width:995px){
+    nav{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #b74b4b;
+        border-bottom: 3px solid #b74b4b;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    nav.active{
+        display: block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a.active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #b74b4b;
+    }
+}
+
+
+.map-mouldure a{
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.map-image{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    height: 60%;
+    border: 2px rgb(94, 94, 94) solid;
+    border-radius: 20px;
+}
+
+.map-image:hover{
+    margin-top: 0px;
+    height: 80%;
+    width: 120%;
+    transition: 300ms;
+    cursor: pointer
+
+    
+
+}
+
